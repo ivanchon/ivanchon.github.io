@@ -36,6 +36,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "component---src-pages-vr-event-js": [
+      "component---src-pages-vr-event-js-a4abb53579adc2fc81c4.js",
+      "component---src-pages-vr-event-js-a4abb53579adc2fc81c4.js.map"
+    ],
     "path---instacampaign": [
       "path---instacampaign-a0e39f21c11f6a62c5ab.js",
       "path---instacampaign-a0e39f21c11f6a62c5ab.js.map"
@@ -53,12 +57,8 @@
       "component---src-pages-wiredrive-js-adcd18ee0376a4116d7f.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8d2136a117244c600f5b.js",
-      "component---src-layouts-index-js-8d2136a117244c600f5b.js.map"
-    ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-layouts-index-js-d84e5101c3783aed16f7.js",
+      "component---src-layouts-index-js-d84e5101c3783aed16f7.js.map"
     ],
     "path---fall-preview": [
       "path---fall-preview-a0e39f21c11f6a62c5ab.js",
@@ -80,6 +80,10 @@
       "commons-d1510b0c260061eb88a0.js",
       "commons-d1510b0c260061eb88a0.js.map"
     ],
+    "path---vr-event": [
+      "path---vr-event-a0e39f21c11f6a62c5ab.js",
+      "path---vr-event-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -92,18 +96,14 @@
       "path---prints-a0e39f21c11f6a62c5ab.js",
       "path---prints-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
-    ],
     "path---lyg-event": [
       "path---lyg-event-a0e39f21c11f6a62c5ab.js",
       "path---lyg-event-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-bf7ac583f7e26d7f4f06.js",
+      "app-f8bce452dad33e4acab6.js",
       "build-js-styles.css",
-      "app-bf7ac583f7e26d7f4f06.js.map",
+      "app-f8bce452dad33e4acab6.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-denim-dark-js": [
