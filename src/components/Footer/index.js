@@ -6,6 +6,7 @@ import { injectGlobal } from 'styled-components';
 injectGlobal`
   footer {
     background-color: transparent;
+    font-size: 0.8rem;
       &:a {
         background-color: #333;
       }
@@ -19,7 +20,7 @@ injectGlobal`
       .col-r{
         text-align: right;
       }
-    }  
+    }
   }
 `;
 
@@ -30,7 +31,7 @@ const Footer = () => (
     <div className="container py-3 text-center">
       <div className="row">
         <div className="col-sm-4 col-l">
-          <p>©2018 Built with GatsbyJS</p>
+          <p>©2018 - Built with GatsbyJS</p>
         </div>
         <div className="col-sm-4">
           <p>
@@ -39,9 +40,9 @@ const Footer = () => (
         </div>
         <div className="col-sm-4 col-r">
           <p>
-            <a className="" href="http://www.instagram.com/ivan.chon" target="_blank">in</a> —
-            <a className="" href="http://www.behance.com/ivanchon" target="_blank"> be</a> —
-            <a className="" href="http://www.linkedin.com/in/ivanchon/" target="_blank"> li</a>
+            <a className="" href="http://www.instagram.com/ivan.chon" target="_blank">instagram</a> —
+            {/*<a className="" href="http://www.behance.com/ivanchon" target="_blank"> be</a> —*/}
+            <a className="" href="http://www.linkedin.com/in/ivanchon/" target="_blank"> linkedin</a>
           </p>
         </div>
       </div>

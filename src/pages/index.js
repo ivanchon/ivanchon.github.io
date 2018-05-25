@@ -1,10 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+
 /*import ScrollReveal from 'scrollreveal'*/
 
 /*img imports*/
+
+import gridart from '../img/grid-artemail.jpg'
 import gridalp from '../img/grid-ecf.gif'
+import gridvrm from '../img/grid-vrmixer2.jpg'
 import gridwrd from '../img/grid-wdsite2.jpg'
 import gridfpw from '../img/grid-fapw.jpg'
 import gridlyg from '../img/grid-lyg1.jpg'
@@ -88,22 +92,41 @@ const IndexPage = ({}) => (
       </div>
     </div>
 
+
   <Container className="container home-grid" id="work">
+    <div className="row">
+      <User
+        class="col-md-6 home-grid-block"
+        image={gridalp}
+        title="Artlist Paris - Emmanuel Caurel"
+        excerpt="Motion Graphics"
+        link="/artlist/"
+      />
+      <User
+        class="col-md-5 ml-auto home-grid-block"
+        image={gridart}
+        title="Artlist Email"
+        excerpt="Web Design"
+        link="/artlist-email/"
+      />
+    </div>
+
       <div className="row">
         <User
-          class="col-md-6 home-grid-block"
-          image={gridalp}
-          title="Artlist Paris - Emmanuel Caurel"
-          excerpt="Motion Graphics"
-          link="/artlist/"
+          class="col-md-5 mx-auto home-grid-block"
+          image={gridvrm}
+          title="VR Mixer"
+          excerpt="Event"
+          link="/vr-mixer/"
         />
         <User
-          class="col-md-5 ml-auto home-grid-block"
+          class="col-md-6 mx-auto home-grid-block"
           image={gridwrd}
           title="Wiredrive"
           excerpt="Web Design"
           link="/wiredrive/"
         />
+
       </div>
       <div className="row">
         <User
