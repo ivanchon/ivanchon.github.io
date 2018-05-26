@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import {injectGlobal} from 'styled-components'
 
 import Footer from '../components/Articles/Footer'
-import { HeroWrapper, Company, Title, TitleI, Description, Category } from '../components/Articles/Hero.js';
+import Hero from '../components/Articles/Hero.js'
+
 
 injectGlobal`
   .clrf {
@@ -21,18 +22,6 @@ import alpVid3 from '../img/alp-chanel-web.mp4'
 import alpVid4 from '../img/alp-shu-web.mp4'
 import alpVid5 from '../img/alp-giamba-web.mp4'
 
-const Hero = props => (
-  <HeroWrapper className="container">
-    <div className="row">
-      <div className="col-sm-8 ml-auto mr-auto text-center">
-        <Company>{props.company}</Company>
-        <Title>{props.titlei}<TitleI>{props.title}</TitleI></Title>
-        <Description>{props.description}</Description>
-        <Category>{props.category}</Category>
-      </div>
-    </div>
-  </HeroWrapper>
-);
 
 const VidBlock = props => (
   <div className="container text-center py-5">

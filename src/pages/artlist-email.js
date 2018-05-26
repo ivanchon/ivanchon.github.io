@@ -3,12 +3,10 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { Container, Row, Col, UncontrolledCarousel } from 'reactstrap'
 
-
 import Footer from '../components/Articles/Footer'
-import { HeroWrapper, Company, Title, TitleI, Description, Category } from '../components/Articles/Hero.js';
+import Hero from '../components/Articles/Hero.js'
 
 //img imports
-
 import syHero from '../img/syn-email-hero.jpg'
 import syBefo from '../img/syn-email-before.gif'
 import sySyna from '../img/syn-artemail-01.jpg'
@@ -17,26 +15,12 @@ import syEmai from '../img/syn-email-full.jpg'
 import syResu from '../img/syn-email-results2.png'
 
 
-
-const Hero = props => (
-  <HeroWrapper className="container">
-    <div className="row">
-      <div className="col-sm-8 ml-auto mr-auto text-center">
-        <Company>{props.company}</Company>
-        <Title>{props.titlei}<TitleI>{props.title}</TitleI></Title>
-        <Description>{props.description}</Description>
-        <Category>{props.category}</Category>
-      </div>
-    </div>
-  </HeroWrapper>
-);
-
 const Wiredrive = () => (<div>
 
   <Hero
     company="Artlist Paris"
     titlei="Web —"
-    title=" Arlist Emails"
+    title=" Arlist Email"
     description="Having recently completed a website overhaul, and on the verge of launching their image licensing syndication site, ArtList needed to re-do their email communications as well, unifying all communication assets and adapting to new device formats."
     category="Art Direction — Graphic Design — Web Development"
   />

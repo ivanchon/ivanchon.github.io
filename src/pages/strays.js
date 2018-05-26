@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {injectGlobal} from 'styled-components'
 
 import Footer from '../components/Articles/Footer'
-import { HeroWrapper, Company, Title, TitleI, Description, Category } from '../components/Articles/Hero.js';
+import Hero from '../components/Articles/Hero.js'
 
 injectGlobal`
   .card img {
@@ -21,18 +21,6 @@ import strImg5 from '../img/strays/str-hudson-preview.jpg'
 import strImg6 from '../img/strays/str-hudson-soiree.jpg'
 import strImg7 from '../img/strays/str-hudson-soiree.jpg'
 
-const Hero = props => (
-  <HeroWrapper className="container">
-    <div className="row">
-      <div className="col-sm-8 ml-auto mr-auto text-center">
-        <Company>{props.company}</Company>
-        <Title>{props.titlei}<TitleI>{props.title}</TitleI></Title>
-        <Description>{props.description}</Description>
-        <Category>{props.category}</Category>
-      </div>
-    </div>
-  </HeroWrapper>
-);
 
 const Strays = () => (<div>
 
