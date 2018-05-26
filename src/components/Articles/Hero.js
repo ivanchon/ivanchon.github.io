@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled, { css, injectGlobal } from 'styled-components'
+import styled, { injectGlobal } from 'styled-components'
 import { Container, Row, Col } from 'reactstrap'
 
 injectGlobal`
@@ -10,7 +10,6 @@ injectGlobal`
     @media (max-width: 767.98px) {
       margin-top: 5rem;
     }
-
   }
 `;
 
@@ -41,16 +40,16 @@ const Category = styled.p`
 
 
 const Hero = props => (
-  <Container className="hero-pad">
-    <Row>
-      <Col className="col-10 col-lg-8 mx-auto text-center">
+  <div className="container hero-pad">
+    <div className="row">
+      <div className="col-10 col-lg-8 mx-auto text-center">
         <Company>{props.company}</Company>
         <Title>{props.titlei}<TitleI>{props.title}</TitleI></Title>
-        <Description>{props.description}</Description>
+        <p>{props.description}</p>
         <Category>{props.category}</Category>
-      </Col>
-    </Row>
-  </Container>
-);
+      </div>
+    </div>
+  </div>
+)
 
 export default Hero

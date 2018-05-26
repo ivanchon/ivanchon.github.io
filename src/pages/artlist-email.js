@@ -150,6 +150,6 @@ const Wiredrive = () => (<div>
 
 <Footer/>
 
-</div> //all-enclosing div
+</div>
 )
 export default Wiredrive
